@@ -1,6 +1,6 @@
 #!/bin/bash
 ARGUMENTS="$@"
-BRANCH="main"
+BRANCH="feature"
 DRYRUN="0"
 GITPARAMS=()
 RELEASEDATE=$(date '+%Y%m%d')
@@ -9,7 +9,7 @@ REMOTE="origin"
 PREVIOUS_COMMIT=""
 RUNSILENT="0"
 VERBOSE="0"
-VERSIONTYPE="patch"
+VERSIONTYPE="minor"
 
 
 # Function to return help text when requested with -h option.
